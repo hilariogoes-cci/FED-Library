@@ -1,0 +1,24 @@
+/* This stylesheet is the main stylesheet. 
+It is used only for importing partial sass files.
+DO NOT WRITE ANY CSS STYLINGS HERE */
+
+
+/* Default base files */
+@import "base/base";
+
+/* Compass Files */
+@import "compass";
+
+/* Vendors */
+@import "vendor/vendor";
+
+/* Layouts */
+@import "layout/layout";
+
+/* Modules/Partial Files */
+@import "modules/modules";
+
+/* Theme/Custom Files */
+@import "theme/theme";
+
+/* Other Specific Files */
