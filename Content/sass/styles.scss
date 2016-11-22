@@ -2,12 +2,11 @@
 It is used only for importing partial sass files.
 DO NOT WRITE ANY CSS STYLINGS HERE */
 
+/* Compass Files */
+@import "compass";
 
 /* Default base files */
 @import "base/base";
-
-/* Compass Files */
-@import "compass";
 
 /* Vendors */
 @import "vendor/vendor";

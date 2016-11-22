@@ -1,7 +1,25 @@
 /* Fonts */
 
-/*@include font-face("AvenirNext", font-files("AvenirNextLTPro-Regular.otf", "AvenirNextLTPro-Regular.woff"));
-@include font-face("AvenirNext-Bold", font-files("AvenirNextLTPro-Bold.otf", "AvenirNextLTPro-Bold.woff"));
-@include font-face("AvenirNext-Italic", font-files("AvenirNextLTPro-It.otf", "AvenirNextLTPro-It.woff"));
-@include font-face("AvenirNext-Demi", font-files("AvenirNextLTPro-Demi.otf", "AvenirNextLTPro-Demi.woff"));
-@include font-face("AvenirNext-Light", font-files("AvenirNextLTPro-Ultralight.ttf", "AvenirNextLTPro-UltLt.woff"));*/
+/* Avenir */
+/*font-family: 'Avenir', sans-serif;*/
+@include font-face("AvenirNext", font-files("avenir/AvenirNextLTPro-Regular.otf", "avenir/AvenirNextLTPro-Regular.woff"));
+@include font-face("AvenirNext-Medium", font-files("avenir/AvenirLTStd-Medium.otf", "avenir/AvenirNextLTPro-Regular.woff"));
+@include font-face("AvenirNext-Bold", font-files("avenir/AvenirNextLTPro-Bold.otf", "avenir/AvenirNextLTPro-Bold.woff"));
+@include font-face("AvenirNext-Italic", font-files("avenir/AvenirNextLTPro-It.otf", "avenir/AvenirNextLTPro-It.woff"));
+@include font-face("AvenirNext-Demi", font-files("avenir/AvenirNextLTPro-Demi.otf", "avenir/AvenirNextLTPro-Demi.woff"));
+@include font-face("AvenirNext-Light", font-files("avenir/AvenirNextLTPro-Ultralight.ttf", "avenir/a-avenir-next-lt-pro.woff"));
+@include font-face("AvenirNext-Ultra-Light", font-files("avenir/AvenirNextLTPro-Ultralight.ttf", "avenir/AvenirNextLTPro-UltLt.woff"));
+
+/* Lato */
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
+/* Open Sans */
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
+/* PT Sans */
+/*font-family: 'PT Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
