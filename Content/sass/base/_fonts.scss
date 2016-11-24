@@ -1,18 +1,39 @@
-/* Fonts */
+/* FONTS */
 
-/* Avenir */
-/*font-family: 'Avenir', sans-serif;*/
-@include font-face("AvenirNext", font-files("avenir/AvenirNextLTPro-Regular.otf", "avenir/AvenirNextLTPro-Regular.woff"));
-@include font-face("AvenirNext-Medium", font-files("avenir/AvenirLTStd-Medium.otf", "avenir/AvenirNextLTPro-Regular.woff"));
-@include font-face("AvenirNext-Bold", font-files("avenir/AvenirNextLTPro-Bold.otf", "avenir/AvenirNextLTPro-Bold.woff"));
-@include font-face("AvenirNext-Italic", font-files("avenir/AvenirNextLTPro-It.otf", "avenir/AvenirNextLTPro-It.woff"));
-@include font-face("AvenirNext-Demi", font-files("avenir/AvenirNextLTPro-Demi.otf", "avenir/AvenirNextLTPro-Demi.woff"));
-@include font-face("AvenirNext-Light", font-files("avenir/AvenirNextLTPro-Ultralight.ttf", "avenir/a-avenir-next-lt-pro.woff"));
-@include font-face("AvenirNext-Ultra-Light", font-files("avenir/AvenirNextLTPro-Ultralight.ttf", "avenir/AvenirNextLTPro-UltLt.woff"));
+/* AvenirNext */
+/*font-family: 'AvenirNext', sans-serif;*/
+@include font-face("AvenirNext", font-files("avenir/avenirnext-ultlt.ttf", "avenir/avenirnext-ultlt.woff"), $weight:100);
+//@include font-face("AvenirNext", font-files("avenir/avenirNext-light.ttf", "avenir/avenirNext-light.woff"), $weight:300);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-regular.otf", "avenir/avenirnext-regular.woff"), $weight:normal);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-it.otf", "avenir/avenirnext-it.woff"), $weight:normal, $style:italic);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-medium.otf"), $weight:500);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-demi.otf", "avenir/avenirnext-demi.woff"), $weight:600);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-demiit.otf"), $weight:600, $style:italic);
+@include font-face("AvenirNext", font-files("avenir/avenirnext-bold.otf", "avenir/avenirnext-bold.woff"), $weight:700);
+//@include font-face("AvenirNext", font-files("avenir/avenirNext-black.otf", "avenir/avenirNext-black.woff"), $weight:800);
+
+
 
 /* Lato */
 /*font-family: 'Lato', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
+/* AvenirNext Condensed */
+/*font-family: 'AvenirNext', sans-serif;*/
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-ultlt.otf"), $weight:100);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-ultltit.otf"), $weight:100, $style:italic);
+//@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-light.ttf"), $weight:300);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-regular.otf"), $weight:normal);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-it.otf"), $weight:normal, $style:italic);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-medium.otf"), $weight:500);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-mediumit.otf"), $weight:500, $style:italic);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-demi.otf"), $weight:600);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-demiit.otf"), $weight:600, $style:italic);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-bold.otf"), $weight:700);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-boldit.otf"), $weight:700, $style:italic);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-heavy.otf"), $weight:800);
+@include font-face("AvenirNextCondensed", font-files("avenir-condensed/avenirnextcn-heavyit.otf"), $weight:800, $style:italic);
 
 
 /* Open Sans */
