@@ -1,2 +1,15 @@
-/* Form Elements */
+/* FORM ELEMENTS */
 
+/* Default Placeholders */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c1c1c2;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #c1c1c2;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c1c1c2;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c1c1c2;
+}

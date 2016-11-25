@@ -1,0 +1,116 @@
+/* PADDINGS */
+
+/* these classes overwrites all other padding classes in pobile view */
+.p-xs-0{padding:0!important;}
+.p-t-xs-0{padding-top:0!important;}
+.p-b-xs-0{padding-bottom:0!important;}
+.p-l-xs-0{padding-top:0!important;}
+.p-r-xs-0{padding-bottom:0!important;}
+
+/* this class overwrites all other padding classes in tablet view */
+@media (min-width:$screen-sm){
+	.p-sm-0{padding-top:0!important;}
+	.p-t-sm-0{padding-top:0!important;}
+	.p-b-sm-0{padding-bottom:0!important;}
+	.p-l-sm-0{padding-top:0!important;}
+	.p-r-sm-0{padding-bottom:0!important;}
+}
+
+/* this class overwrites all other padding classes in desktop view */
+@media (bottop-width:$screen-md){
+	.p-md-0{padding-top:0!important;}
+	.p-t-md-0{padding-top:0!important;}
+	.p-b-md-0{padding-bottom:0!important;}
+	.p-l-md-0{padding-top:0!important;}
+	.p-r-md-0{padding-bottom:0!important;}
+}
+
+
+/* paddings */
+.p-0{
+	padding:0;
+}
+.p-5{
+	padding:5px;
+}
+.p-10{
+	padding:5px;
+}
+.p-15{
+	padding:5px;
+}
+.p-20{
+	padding:5px;
+}
+
+/* padding top */
+.p-t-0{
+	padding-top:0;
+}
+.p-t-5{
+	padding-top:5px;
+}
+.p-t-10{
+	padding-top:5px;
+}
+.p-t-15{
+	padding-top:5px;
+}
+.p-t-20{
+	padding-top:5px;
+}
+
+/* padding right */
+.p-r-0{
+	padding-right:0;
+}
+.p-r-5{
+	padding-right:5px;
+}
+.p-r-10{
+	padding-right:5px;
+}
+.p-r-15{
+	padding-right:5px;
+}
+.p-r-20{
+	padding-right:5px;
+}
+
+/* padding bottom */
+.p-b-0{
+	padding-bottom:0;
+}
+.p-b-5{
+	padding-bottom:5px;
+}
+.p-b-10{
+	padding-bottom:5px;
+}
+.p-b-15{
+	padding-bottom:5px;
+}
+.p-b-20{
+	padding-bottom:5px;
+}
+
+/* padding left */
+.p-l-0{
+	padding-left:0;
+}
+.p-l-5{
+	padding-left:5px;
+}
+.p-l-10{
+	padding-left:5px;
+}
+.p-l-15{
+	padding-left:5px;
+}
+.p-l-20{
+	padding-left:5px;
+}
+
+
+/* custom ones if any */
+

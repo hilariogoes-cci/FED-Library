@@ -5,11 +5,11 @@ DO NOT WRITE ANY CSS STYLINGS HERE */
 /* Compass Files */
 @import "compass";
 
-/* Default base files */
-@import "base/base";
-
 /* Vendors */
 @import "vendor/vendor";
+
+/* Default base files */
+@import "base/base";
 
 /* Layouts */
 @import "layout/layout";

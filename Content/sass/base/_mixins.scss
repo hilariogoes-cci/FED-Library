@@ -1,2 +1,52 @@
-/* Mixins */
+/* MIXINS */
 
+/* Mixin for font size */
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+
+/* Vendor Prefix */
+@mixin prefix($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+    #{$property}: $value;
+}
+
+
+/* Vertically Align a Div in Desktop*/
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/* Horizontal Align a Div in Desktop*/
+@mixin horizontal-align($position: relative) {
+  position: $position;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+/* Reset a div that's vertically aligned in mobile */
+@mixin reset-vertical-align($position: relative) {
+  position: $position;
+  top: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
