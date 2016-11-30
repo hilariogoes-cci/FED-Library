@@ -1,0 +1,35 @@
+/* VARIABLES */
+
+/* Font Families */ 
+$lato: 'Lato', sans-serif;
+
+
+/* fonts to be used by the entire site */
+$font-primary : $lato;
+
+
+/* Colors */
+$black: #000;
+$white: #fff;
+$red: #d90b12;
+$green: #0e9507;
+$orange: #e76d0b;
+$pink: #e807a6;
+$brown: #773f04;
+$yellow: #e0bf08;
+$gray: #333333;
+$green-light: #14bb0c;
+$green-dark: #085104;
+$gray-light: #5a5a5a;
+$gray-dark: #191919;
+
+
+/* Media queries breakpoints */
+$screen-xs:	480px !default;
+$screen-sm:	768px !default;
+$screen-md:	992px !default;
+$screen-lg:	1500px !default;
+
+
+/*menu width*/
+$main-sidebar-width: 230px;

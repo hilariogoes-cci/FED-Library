@@ -1,0 +1,56 @@
+/* FORM ELEMENTS */
+
+/* Default Placeholders */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: inherit;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: inherit;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: inherit;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: inherit;
+}
+
+/* Default Styling overrides */
+select::-ms-expand {
+    display: none;
+}
+input[type="search"]::-ms-clear, 
+input[type="search"]::-ms-reveal{
+    display: none;
+    width: 0;
+    height: 0; 
+}
+
+
+/* TYPES OF FORM CONTROLS */
+// select
+// textarea
+// input[type="text"]
+// input[type="password"]
+// input[type="datetime"]
+// input[type="datetime-local"]
+// input[type="date"]
+// input[type="month"]
+// input[type="time"]
+// input[type="week"]
+// input[type="number"]
+// input[type="email"]
+// input[type="url"]
+// input[type="search"]
+// input[type="tel"]
+// input[type="color"]
+
+input, textarea, select{
+	@include prefix(appearance, none);
+	border:1px solid;
+	line-height: 1;
+	padding: 5px;
+	outline:0;
+	&:focus, &:active, &:hover{
+		outline:0;
+	}
+}

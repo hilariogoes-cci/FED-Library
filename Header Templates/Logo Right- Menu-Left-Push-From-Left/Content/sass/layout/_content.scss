@@ -1,0 +1,21 @@
+/* Main Content */
+.main-wrapper{
+    overflow: hidden;
+}
+main{  
+    z-index: 800;
+    @include transition(transform .3s ease-in-out, margin .3s ease-in-out);
+    
+     
+    
+    
+    //js open sidebar
+    .main-sidebar-open &{ 
+        @include translate($main-sidebar-width, 0);
+        
+        @media (min-width: $screen-sm) {  
+            @include translate(0, 0);
+            margin-left: $main-sidebar-width;
+        }
+    } 
+}

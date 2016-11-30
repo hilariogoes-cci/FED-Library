@@ -1,0 +1,10 @@
+/* Header */
+
+header{
+	min-height: 50px;
+    @media (min-width: $screen-sm){
+        .navbar-toggle {
+            display: block;
+        } 
+    }
+}
