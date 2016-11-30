@@ -1,0 +1,10 @@
+/* Navigations/Menus */
+
+nav{
+	padding: 15px 0;
+	@include prefix(transition, all .5s ease-in-out);
+	
+	&.top-nav-collapse {
+        padding: 0;
+    }
+}
