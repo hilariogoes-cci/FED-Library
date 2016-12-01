@@ -1,0 +1,34 @@
+/* Base Stylings like ul, p, body, etc */
+
+/* Body & Html */
+body, html{
+	height:100%;
+	@include font-size(16px);
+	font-family: $font-primary;
+	-webkit-overflow-scrolling: touch;
+}
+body{
+	
+}
+
+/* Paragraphs */
+p{
+	
+}
+
+/* Strong */
+strong, b{
+	font-weight:600;
+}
+
+/* Links */
+a{
+	&:hover, &:active, &:focus{
+		outline:0;
+	}
+}
+
+/* Listings */
+ul, ol{
+	
+}

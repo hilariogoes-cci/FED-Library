@@ -12794,17 +12794,17 @@ a:hover, a:active, a:focus {
 
 /* line 36, ../sass/base/_margins.scss */
 .m-10 {
-  margin: 5px;
+  margin: 10px;
 }
 
 /* line 39, ../sass/base/_margins.scss */
 .m-15 {
-  margin: 5px;
+  margin: 15px;
 }
 
 /* line 42, ../sass/base/_margins.scss */
 .m-20 {
-  margin: 5px;
+  margin: 20px;
 }
 
 /* Margin top */
@@ -12820,17 +12820,17 @@ a:hover, a:active, a:focus {
 
 /* line 53, ../sass/base/_margins.scss */
 .m-t-10 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /* line 56, ../sass/base/_margins.scss */
 .m-t-15 {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 /* line 59, ../sass/base/_margins.scss */
 .m-t-20 {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 /* Margin right */
@@ -12846,17 +12846,17 @@ a:hover, a:active, a:focus {
 
 /* line 70, ../sass/base/_margins.scss */
 .m-r-10 {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /* line 73, ../sass/base/_margins.scss */
 .m-r-15 {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 /* line 76, ../sass/base/_margins.scss */
 .m-r-20 {
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 /* Margin bottom */
@@ -12872,17 +12872,17 @@ a:hover, a:active, a:focus {
 
 /* line 87, ../sass/base/_margins.scss */
 .m-b-10 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* line 90, ../sass/base/_margins.scss */
 .m-b-15 {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 /* line 93, ../sass/base/_margins.scss */
 .m-b-20 {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 /* Margin left */
@@ -12898,17 +12898,17 @@ a:hover, a:active, a:focus {
 
 /* line 104, ../sass/base/_margins.scss */
 .m-l-10 {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 /* line 107, ../sass/base/_margins.scss */
 .m-l-15 {
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 /* line 110, ../sass/base/_margins.scss */
 .m-l-20 {
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 /* custom ones if any */
@@ -13006,17 +13006,17 @@ a:hover, a:active, a:focus {
 
 /* line 36, ../sass/base/_paddings.scss */
 .p-10 {
-  padding: 5px;
+  padding: 10px;
 }
 
 /* line 39, ../sass/base/_paddings.scss */
 .p-15 {
-  padding: 5px;
+  padding: 15px;
 }
 
 /* line 42, ../sass/base/_paddings.scss */
 .p-20 {
-  padding: 5px;
+  padding: 20px;
 }
 
 /* padding top */
@@ -13032,17 +13032,17 @@ a:hover, a:active, a:focus {
 
 /* line 53, ../sass/base/_paddings.scss */
 .p-t-10 {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 /* line 56, ../sass/base/_paddings.scss */
 .p-t-15 {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 /* line 59, ../sass/base/_paddings.scss */
 .p-t-20 {
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 /* padding right */
@@ -13058,17 +13058,17 @@ a:hover, a:active, a:focus {
 
 /* line 70, ../sass/base/_paddings.scss */
 .p-r-10 {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 /* line 73, ../sass/base/_paddings.scss */
 .p-r-15 {
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 /* line 76, ../sass/base/_paddings.scss */
 .p-r-20 {
-  padding-right: 5px;
+  padding-right: 20px;
 }
 
 /* padding bottom */
@@ -13084,17 +13084,17 @@ a:hover, a:active, a:focus {
 
 /* line 87, ../sass/base/_paddings.scss */
 .p-b-10 {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 /* line 90, ../sass/base/_paddings.scss */
 .p-b-15 {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 /* line 93, ../sass/base/_paddings.scss */
 .p-b-20 {
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 /* padding left */
@@ -13110,17 +13110,17 @@ a:hover, a:active, a:focus {
 
 /* line 104, ../sass/base/_paddings.scss */
 .p-l-10 {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 /* line 107, ../sass/base/_paddings.scss */
 .p-l-15 {
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 /* line 110, ../sass/base/_paddings.scss */
 .p-l-20 {
-  padding-left: 5px;
+  padding-left: 20px;
 }
 
 /* custom ones if any */

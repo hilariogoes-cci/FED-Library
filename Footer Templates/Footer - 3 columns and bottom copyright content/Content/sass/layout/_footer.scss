@@ -1,0 +1,16 @@
+/* Footer */
+
+footer{
+	background-color: #f5f5f5;
+    width: 100%;
+	p{
+		margin: 20px 0;
+	}
+	
+	.footer-bottom{
+		border-top:1px solid $gray-light;
+		@extend .text-center;
+		@extend .p-t-10;
+		@extend .p-b-10;
+	}
+}
