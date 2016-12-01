@@ -1,0 +1,25 @@
+/* Main Content */
+.main-wrapper,body{
+    overflow-x: hidden;
+}
+main{  
+    z-index: 800;
+	@include prefix(transition, all .3s ease-in-out);
+    
+    //dektop open sidebar
+    @media (min-width: $screen-sm) {  
+		@include prefix(transform, translate(0, 0));
+        margin-right: $main-sidebar-width;
+    }
+    
+    
+    //js open sidebar
+    .main-sidebar-open &{ 
+		@include prefix(transform, translate(-$main-sidebar-width, 0));
+        
+        @media (min-width: $screen-sm) {  
+        	@include prefix(transform, translate(0, 0));
+            margin-right: $main-sidebar-width;
+        }
+    } 
+}
