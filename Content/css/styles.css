@@ -12685,14 +12685,15 @@ body, html {
 }
 
 /* Paragraphs */
+/* Small */
 /* Strong */
-/* line 20, ../sass/base/_defaults.scss */
+/* line 25, ../sass/base/_defaults.scss */
 strong, b {
   font-weight: 600;
 }
 
 /* Links */
-/* line 26, ../sass/base/_defaults.scss */
+/* line 31, ../sass/base/_defaults.scss */
 a:hover, a:active, a:focus {
   outline: 0;
 }
@@ -12700,6 +12701,41 @@ a:hover, a:active, a:focus {
 /* Listings */
 /* HELPERS */
 /* Text colors */
+/* Classes */
+/* line 7, ../sass/base/_utilities.scss */
+.page-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 14, ../sass/base/_utilities.scss */
+.display-inline {
+  display: inline-block;
+}
+
+/* line 18, ../sass/base/_utilities.scss */
+.width-100 {
+  width: 100%;
+}
+
+/* line 21, ../sass/base/_utilities.scss */
+.full-width {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+/* line 26, ../sass/base/_utilities.scss */
+.no-border {
+  border: 0 !important;
+}
+
 /* MARGINS */
 /* these classes overwrites all other margin classes in mobile view */
 /* line 4, ../sass/base/_margins.scss */
@@ -13164,8 +13200,22 @@ input[type="search"]::-ms-reveal {
   height: 0;
 }
 
+/* Change autocomplete styles in WebKit */
+/* line 28, ../sass/base/_forms.scss */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  -webkit-text-fill-color: #000;
+}
+
 /* TYPES OF FORM CONTROLS */
-/* line 47, ../sass/base/_forms.scss */
+/* line 59, ../sass/base/_forms.scss */
 input, textarea, select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -13176,12 +13226,15 @@ input, textarea, select {
   line-height: 1;
   padding: 5px;
   outline: 0;
+  resize: none;
+  /* Different types of input */
 }
-/* line 53, ../sass/base/_forms.scss */
+/* line 66, ../sass/base/_forms.scss */
 input:focus, input:active, input:hover, textarea:focus, textarea:active, textarea:hover, select:focus, select:active, select:hover {
   outline: 0;
 }
 
+/* Error Validations */
 /* BUTTONS */
 /* HEADINGS */
 /* line 3, ../sass/base/_typography.scss */
@@ -13223,6 +13276,18 @@ h5 {
 h6 {
   font-size: 12px;
   font-size: 0.75rem;
+}
+
+/* Overwrite default classes in bootstrap */
+/* line 2, ../sass/base/_bootstrap-overwrites.scss */
+.media-body {
+  width: auto;
+}
+
+/* For Inputs */
+/* line 15, ../sass/base/_bootstrap-overwrites.scss */
+label {
+  font-weight: normal;
 }
 
 /* Layouts */
