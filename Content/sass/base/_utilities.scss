@@ -1,0 +1,28 @@
+/* HELPERS */
+
+/* Text colors */
+
+
+/* Classes */
+.page-center{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+	@include prefix(transform, translate(-50%, -50%));
+}
+
+.display-inline{
+	display: inline-block;
+}
+
+.width-100{
+    width:100%;
+}
+.full-width{
+	float: left;
+	width: 100%;
+	clear:both;
+}
+.no-border{
+    border:0 !important;
+}

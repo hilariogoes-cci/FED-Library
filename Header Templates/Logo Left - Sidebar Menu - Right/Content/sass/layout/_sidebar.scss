@@ -1,0 +1,33 @@
+/* Sidebar */
+
+.main-sidebar{
+    background: $orange;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    min-height: 100%;
+    width: $main-sidebar-width;
+    z-index: 810;
+	@include prefix(transform, translate($main-sidebar-width, 0));
+ 	@include prefix(transition, all .3s ease-in-out);
+    
+    @media (min-width: $screen-sm) {
+        @include prefix(transform, translate(0, 0));
+    }
+    
+    .main-sidebar-open & {
+       @include prefix(transform, translate(0, 0));
+    }
+    
+    a{
+        color: $white;
+    }
+    
+    /*drop down*/
+    .dropdown .dropdown-menu{
+        width: 100%;
+        position: relative;  
+    }  
+    
+}
+

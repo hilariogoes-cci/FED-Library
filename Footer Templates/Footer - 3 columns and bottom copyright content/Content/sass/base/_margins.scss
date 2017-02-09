@@ -1,0 +1,115 @@
+/* MARGINS */
+
+/* these classes overwrites all other margin classes in mobile view */
+.m-xs-0{margin:0!important;}
+.m-t-xs-0{margin-top:0!important;}
+.m-b-xs-0{margin-bottom:0!important;}
+.m-l-xs-0{margin-top:0!important;}
+.m-r-xs-0{margin-bottom:0!important;}
+
+/* this class overwrites all other margin classes in tablet view */
+@media (min-width:$screen-sm){
+	.m-sm-0{margin-top:0!important;}
+	.m-t-sm-0{margin-top:0!important;}
+	.m-b-sm-0{margin-bottom:0!important;}
+	.m-l-sm-0{margin-top:0!important;}
+	.m-r-sm-0{margin-bottom:0!important;}
+}
+
+/* this class overwrites all other margin classes in desktop view */
+@media (min-width:$screen-md){
+	.m-md-0{margin-top:0!important;}
+	.m-t-md-0{margin-top:0!important;}
+	.m-b-md-0{margin-bottom:0!important;}
+	.m-l-md-0{margin-top:0!important;}
+	.m-r-md-0{margin-bottom:0!important;}
+}
+
+
+/* Margins */
+.m-0{
+	margin:0;
+}
+.m-5{
+	margin:5px;
+}
+.m-10{
+	margin:10px;
+}
+.m-15{
+	margin:15px;
+}
+.m-20{
+	margin:20px;
+}
+
+/* Margin top */
+.m-t-0{
+	margin-top:0;
+}
+.m-t-5{
+	margin-top:5px;
+}
+.m-t-10{
+	margin-top:10px;
+}
+.m-t-15{
+	margin-top:15px;
+}
+.m-t-20{
+	margin-top:20px;
+}
+
+/* Margin right */
+.m-r-0{
+	margin-right:0;
+}
+.m-r-5{
+	margin-right:5px;
+}
+.m-r-10{
+	margin-right:10px;
+}
+.m-r-15{
+	margin-right:15px;
+}
+.m-r-20{
+	margin-right:20px;
+}
+
+/* Margin bottom */
+.m-b-0{
+	margin-bottom:0;
+}
+.m-b-5{
+	margin-bottom:5px;
+}
+.m-b-10{
+	margin-bottom:10px;
+}
+.m-b-15{
+	margin-bottom:15px;
+}
+.m-b-20{
+	margin-bottom:20px;
+}
+
+/* Margin left */
+.m-l-0{
+	margin-left:0;
+}
+.m-l-5{
+	margin-left:5px;
+}
+.m-l-10{
+	margin-left:10px;
+}
+.m-l-15{
+	margin-left:15px;
+}
+.m-l-20{
+	margin-left:20px;
+}
+
+
+/* custom ones if any */
