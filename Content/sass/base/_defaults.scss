@@ -6,6 +6,8 @@ body, html{
 	@include font-size(16px);
 	font-family: $font-primary;
 	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
 }
 body{
 	

@@ -2,5 +2,6 @@
 
 /* Ready function */
 $(document).ready(function() {
+	'use strict';
 	
 });

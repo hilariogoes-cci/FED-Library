@@ -1,7 +1,15 @@
 /* BUTTONS */
+button{
+	outline:none;
+	&:focus, &:hover, &:active{
+		outline:none;
+	}
+}
 
 .btn{
-	
+	&:focus, &:hover, &:active, &:active.focus, &:focus.active, &:active:focus{
+		outline:none;
+	}
 	&.btn-primary{
 		
 	}
