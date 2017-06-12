@@ -13559,15 +13559,25 @@ body, html {
 }
 
 /* Paragraphs */
+/* Images */
+/* line 22, ../sass/base/_defaults.scss */
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
 /* Small */
 /* Strong */
-/* line 27, ../sass/base/_defaults.scss */
+/* line 32, ../sass/base/_defaults.scss */
 strong, b {
   font-weight: 600;
 }
 
 /* Links */
-/* line 33, ../sass/base/_defaults.scss */
+/* line 38, ../sass/base/_defaults.scss */
 a:hover, a:active, a:focus {
   outline: 0;
 }

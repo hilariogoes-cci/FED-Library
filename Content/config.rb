@@ -9,6 +9,12 @@ images_dir = "images"
 javascripts_dir = "scripts"
 http_fonts_path = "fonts"
 
+# Disable SASS Cache
+cache = false 
+
+# Disable Warnings in terminal on compile
+disable_warnings = true
+
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
