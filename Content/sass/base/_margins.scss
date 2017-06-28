@@ -4,25 +4,25 @@
 .m-xs-0{margin:0!important;}
 .m-t-xs-0{margin-top:0!important;}
 .m-b-xs-0{margin-bottom:0!important;}
-.m-l-xs-0{margin-top:0!important;}
-.m-r-xs-0{margin-bottom:0!important;}
+.m-l-xs-0{margin-left:0!important;}
+.m-r-xs-0{margin-right:0!important;}
 
 /* this class overwrites all other margin classes in tablet view */
 @media (min-width:$screen-sm){
-	.m-sm-0{margin-top:0!important;}
+	.m-sm-0{margin:0!important;}
 	.m-t-sm-0{margin-top:0!important;}
 	.m-b-sm-0{margin-bottom:0!important;}
-	.m-l-sm-0{margin-top:0!important;}
-	.m-r-sm-0{margin-bottom:0!important;}
+	.m-l-sm-0{margin-left:0!important;}
+	.m-r-sm-0{margin-right:0!important;}
 }
 
 /* this class overwrites all other margin classes in desktop view */
 @media (min-width:$screen-md){
-	.m-md-0{margin-top:0!important;}
+	.m-md-0{margin:0!important;}
 	.m-t-md-0{margin-top:0!important;}
 	.m-b-md-0{margin-bottom:0!important;}
-	.m-l-md-0{margin-top:0!important;}
-	.m-r-md-0{margin-bottom:0!important;}
+	.m-l-md-0{margin-left:0!important;}
+	.m-r-md-0{margin-right:0!important;}
 }
 
 
